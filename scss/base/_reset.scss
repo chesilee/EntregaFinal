@@ -1,0 +1,33 @@
+*{
+    font-family: $font-main;
+    margin: 0%;
+    padding: 0%;
+}
+
+.whatsapp_icon{
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.body_fluid{
+    overflow-x: hidden
+}
+
+.subtitulos-l{
+    color: $mc-black;
+    text-align: $center;
+}
+
+.textos__internos-s{
+    color: $mc-black;
+    font-family: $font-main;
+    font-size: map-get($map: $fontsize , $key: "12"); 
+    font-weight: $fw-400;
+    text-align: $center;
+    padding-top: 20px;
+    margin: 20px 50px;
+}
+
+
+

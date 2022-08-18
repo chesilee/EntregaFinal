@@ -1,0 +1,131 @@
+// header
+@media(min-width:300px){
+.header_animate{
+    width: 100%;
+    height: 40vh;
+    }
+
+.col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    }
+
+.form_venta{
+    justify-content: $center;
+    margin: 0 20px;
+    } 
+}
+
+
+@media(min-width:768px){
+nav {
+    div{
+	    ul{
+        padding: 0 28px;
+            li{
+            padding: 0 20px;    
+                a{
+                color: $fc-white;
+                font-size: map-get($map: $fontsize , $key: "15"); 
+                 }    
+               }
+           }
+       }
+   }
+   
+.titulo__index-xl{
+    width: 100%;
+	font-size: map-get($map: $fontsize , $key: "20"); 
+}
+
+.cards_container{
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.form_feedback{
+    justify-content: $center;
+    }    
+
+.form_puntuacion{
+    width: 70%;
+    margin: 0 90px;
+    align-items: $center;
+    }  
+
+.form_venta{
+    margin: 0 120px;
+    justify-content: $center;
+    width: 70%;
+    }     
+    
+.contenedor_compra{
+    margin: 0 20px;
+    }
+}
+
+
+
+@media(min-width:1024px){
+a{
+    cursor: url(../img/favicon.png);
+}
+
+nav{
+    div{ 
+        ul{
+            li{
+            padding: 0 25px;
+                a{
+                color: $fc-white;
+                font-size: map-get($map: $fontsize , $key: "20"); 
+                 }
+              } 
+           } 
+        } 
+    } 
+
+.titulo__index-xl{
+    width: 100%;
+    font-size: map-get($map: $fontsize , $key: "20"); 
+    }
+
+.form_venta{
+    margin: 0 150px;
+    justify-content: $center;
+    width: 70%;
+    }     
+
+  .form_feedback{
+    display: flex;
+    justify-content: $center;
+}
+}    
+
+
+@media(min-width:1366px){
+    a{
+        cursor: url(../img/favicon.png);
+    }
+    nav{ 
+        div{ 
+            ul{ 
+                padding: 0 20px;
+                li{
+                padding: 0 40px;
+                  a{
+                    color: $fc-white;
+                    font-size: map-get($map: $fontsize , $key: "20"); 
+                   }
+                }
+            }
+        }
+    } 
+
+    .form_venta{
+        margin: 0 280px;
+        justify-content: $center;
+        width: 60%;
+        }     
+}

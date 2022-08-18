@@ -1,0 +1,24 @@
+// Cards
+.cards_container{
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.comentarios_nombre{
+    color: $mc-black;
+    font-family: $font-main;
+    font-size: map-get($map: $fontsize , $key: "12"); 
+    font-weight: $fw-400;
+}
+
+.comentarios_font{
+    font-size: map-get($map: $fontsize , $key: "12"); 
+    font-family: $font-main;
+    color: $mc-black;
+    font-weight: $fw-300;
+    background-color: $tc-grey;
+    padding:15px; 
+    border-radius: 3px;
+}
+    

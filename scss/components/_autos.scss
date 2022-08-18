@@ -1,0 +1,12 @@
+.font_autos{
+    color:$mc-black;
+    font-weight: $fw-500;
+    font-size: map-get($map: $fontsize , $key: "12"); 
+    text-align: $center;
+    padding-top: 20px
+}
+
+.contenedor_compra{
+    margin: 0 10px;
+}
+

@@ -1,0 +1,26 @@
+.page_404{ 
+    padding:30px 0; 
+    background: $fc-white; 
+  }
+
+.carcrash{
+  width:100%;
+  font-size:map-get($map: $fontsize , $key: "30");
+  color: $mc-black;
+}
+  
+.content_404{
+  font-size:map-get($map: $fontsize , $key: "25");
+  color: $mc-black;
+
+}
+
+.btn{    
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: $gradient-grey;
+    color: $fc-white;
+}

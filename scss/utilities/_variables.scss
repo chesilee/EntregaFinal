@@ -1,0 +1,28 @@
+// Colors
+$mc-black: black ;
+$sc-red: red ;
+$tc-grey: #ccc;
+$fc-white: white;
+$gradient-grey: linear-gradient(to right, black, rgb(51, 46, 46), rgb(124, 108, 108));
+
+
+$center: center;
+
+$fontsize: (
+    "6": 0.6rem,
+    "9": 0.9rem,
+    "10": 1rem,
+    "12": 1.2rem,
+    "15": 1.5rem,
+    "18": 1.8rem,
+    "20": 2rem,
+    "25": 2.5rem,
+    "28": 2.8rem,
+    "30": 3rem,
+);
+
+// Weight
+$fw-300: 300;
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;

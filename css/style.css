@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=&family=Roboto:wght@300&display=swap");
+.col-25, .col-75 {
+  float: left;
+  width: 25%;
+  margin-top: 6px; }
+
+.col-75 {
+  width: 75%; }
+
+.titulo__index-xl, .titulo_autos-xl {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 0.9rem;
+  text-align: center; }
+
+.titulo_autos-xl {
+  background-color: red; }
+
+@media (min-width: 300px) {
+  .mx-auto img {
+    width: 200px; } }
+
+@media (min-width: 576px) {
+  .mx-auto img {
+    width: 300px; } }
+
+@media (min-width: 768px) {
+  .mx-auto img {
+    width: 300px; } }
+
+@media (min-width: 1024px) {
+  .mx-auto img {
+    width: 400px; } }
+
+@media (min-width: 1366px) {
+  .mx-auto img {
+    width: 500px; } }
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  padding: 0%; }
+
+.whatsapp_icon {
+  width: 50px;
+  justify-content: center;
+  align-items: center; }
+
+.body_fluid {
+  overflow-x: hidden; }
+
+.subtitulos-l {
+  color: black;
+  text-align: center; }
+
+.textos__internos-s {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 20px;
+  margin: 20px 50px; }
+
+.mx-auto img {
+  width: 150px; }
+
+#botonera {
+  background: linear-gradient(to right, black, #332e2e, #7c6c6c);
+  font-size: 0.6rem;
+  color: white; }
+  #botonera ul li a:hover {
+    font-weight: 600; }
+
+#carrousel_header {
+  padding-bottom: 10px; }
+  #carrousel_header img {
+    object-fit: cover; }
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+
+.font_autos {
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 20px; }
+
+.contenedor_compra {
+  margin: 0 10px; }
+
+.form_venta {
+  display: flex;
+  border-radius: 5px;
+  background-color: #ccc;
+  padding: 40px; }
+
+.col-25, .col-75 {
+  float: left;
+  width: 25%;
+  margin-top: 6px; }
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical; }
+
+label {
+  padding: 12px 12px 12px 12px;
+  display: inline-block; }
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right; }
+
+.form_feedback {
+  display: flex;
+  justify-content: center;
+  padding: 0 40px; }
+
+.form_puntuacion {
+  width: 90%;
+  padding: 18px;
+  border-radius: 10px;
+  background-color: #ccc;
+  color: red;
+  text-align: center; }
+
+.form_comentarios_p {
+  color: -black;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  margin: 6px 0;
+  padding: 3px 2x;
+  resize: none;
+  display: inline-block;
+  text-align: center;
+  justify-content: center; }
+
+.form_comen_input_submit {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 32px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: block;
+  color: white;
+  background-color: black; }
+
+.cards_container {
+  display: flex;
+  justify-content: center;
+  padding: 0 40px; }
+
+.comentarios_nombre {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400; }
+
+.comentarios_font {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 300;
+  background-color: #ccc;
+  padding: 15px;
+  border-radius: 3px; }
+
+#accordionExample strong {
+  color: red; }
+
+@media (min-width: 300px) {
+  .header_animate {
+    width: 100%;
+    height: 40vh; }
+  .col-25, .col-75, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0; }
+  .form_venta {
+    justify-content: center;
+    margin: 0 20px; } }
+
+@media (min-width: 768px) {
+  nav div ul {
+    padding: 0 28px; }
+    nav div ul li {
+      padding: 0 20px; }
+      nav div ul li a {
+        color: white;
+        font-size: 1.5rem; }
+  .titulo__index-xl, .titulo_autos-xl {
+    width: 100%;
+    font-size: 2rem; }
+  .cards_container {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px; }
+  .form_feedback {
+    justify-content: center; }
+  .form_puntuacion {
+    width: 70%;
+    margin: 0 90px;
+    align-items: center; }
+  .form_venta {
+    margin: 0 120px;
+    justify-content: center;
+    width: 70%; }
+  .contenedor_compra {
+    margin: 0 20px; } }
+
+@media (min-width: 1024px) {
+  a {
+    cursor: url(../img/favicon.png); }
+  nav div ul li {
+    padding: 0 25px; }
+    nav div ul li a {
+      color: white;
+      font-size: 2rem; }
+  .titulo__index-xl, .titulo_autos-xl {
+    width: 100%;
+    font-size: 2rem; }
+  .form_venta {
+    margin: 0 150px;
+    justify-content: center;
+    width: 70%; }
+  .form_feedback {
+    display: flex;
+    justify-content: center; } }
+
+@media (min-width: 1366px) {
+  a {
+    cursor: url(../img/favicon.png); }
+  nav div ul {
+    padding: 0 20px; }
+    nav div ul li {
+      padding: 0 40px; }
+      nav div ul li a {
+        color: white;
+        font-size: 2rem; }
+  .form_venta {
+    margin: 0 280px;
+    justify-content: center;
+    width: 60%; } }
+
+.page_404 {
+  padding: 30px 0;
+  background: white; }
+
+.carcrash {
+  width: 100%;
+  font-size: 3rem;
+  color: black; }
+
+.content_404 {
+  font-size: 2.5rem;
+  color: black; }
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: linear-gradient(to right, black, #332e2e, #7c6c6c);
+  color: white; }

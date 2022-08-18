@@ -1,0 +1,27 @@
+En el archivo index.hmtl, nosotros.html, compra.html, venta.html, feedback.html, ayuda.html: sumé el SEO con las siguientes características:
+
+Descripción: mediante la etiqueta meta name="description", agregué el siguiente párrafo que explica el objetivo del sitio, content="Compra y Venta de Autos Usados".
+Mediante la etiqueta title, agregué al título la misma descripción de meta name="description".
+
+Palabras clave: mediante la etiqueta meta name="keywords", agregué  las palabras clave que acompañarán a todas las páginas del sitio, content="autos, compra, venta, permuta, usados, venta de autos, compra de autos".
+Para las páginas internas: ingresé además de las "keywords" default palabras con respecto a el modelo del auto a vender: 
+surancross.html: "suran, surancross, volkswagen"
+fordfocus.html: "ford, ford focus"
+jeepcompass.html: "jeep, jeep compass"
+peugeot2008.html: "peugeot, peugeot 2008"
+
+Encabezado: para el encabezado de "index.hmtl"
+h1 utilicé el texto <h1 >COMPRA Y VENTA DE AUTOS USADOS</h1>.
+
+En el archivo compra.html, sumé el SEO con las siguientes características:
+
+img: para las fotos de la galería de autos modifiqué la descripción de cada una.
+alt="Foto Auto 1"
+alt="Foto Auto 2"
+alt="Foto Auto 3"
+alt="Foto Auto 4"
+
+
+
+
+

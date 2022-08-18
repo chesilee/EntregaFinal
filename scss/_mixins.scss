@@ -1,0 +1,76 @@
+// formularios
+.col-25 {
+    float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col-75{ 
+    @extend .col-25;
+    width: 75%; 
+}
+
+// titulo principal - compra.html autos
+
+.titulo__index-xl{
+	width: 100%;
+	background-color: $mc-black;
+	color: $fc-white;
+	font-size: map-get($map: $fontsize , $key: "9");
+	text-align: $center; 
+}
+
+.titulo_autos-xl{
+    @extend .titulo__index-xl;
+    background-color: $sc-red;
+}
+
+
+@mixin medias($breakpoint){
+	@if $breakpoint == mobile{
+		@media (min-width: 300px){
+			@content;
+		}
+	}
+	@if $breakpoint == tablet{
+		@media (min-width: 576px){
+			@content;
+		}
+	}
+    @if $breakpoint == tablet{
+		@media (min-width: 768px){
+			@content;
+		}
+	}
+	@if $breakpoint == desktop1{
+		@media (min-width: 1024px){
+			@content;
+		}
+	}
+    @if $breakpoint == desktop2{
+		@media (min-width: 1366px){
+			@content;
+		}
+	}
+}
+
+// logo
+.mx-auto{
+    img{
+	@include medias(mobile){
+		width: 200px;
+	}
+	@include medias(tablet){
+		width: 300px;
+	}
+	@include medias(desktop1){
+		width: 400px;
+	}
+    @include medias(desktop2){
+		width: 500px;
+	}
+	}
+}
+
+
+
